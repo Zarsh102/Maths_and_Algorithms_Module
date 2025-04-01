@@ -16,6 +16,8 @@ int main()
     //vector
     //add
     //subtract
+    float answer = MathUtils::toDeg(12);
+    std::cout << answer << std::endl;
 }
 
 
