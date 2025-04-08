@@ -1,14 +1,16 @@
 #include "Vector.h"
-
+#include "Maths.h"
 
 float Vector::Magnitude()
 {
-	return 0;
+	float temp=MathUtils::Pythagoras(x, y, z);
+	return temp;
 }
 
 
 void Vector::Normalise()
 {
+
 }
 
 

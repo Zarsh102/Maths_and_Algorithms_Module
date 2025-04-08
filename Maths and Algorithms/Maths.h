@@ -17,6 +17,11 @@ namespace MathUtils
 		float C = A * A + B * B;
 		return sqrt (C);
 	}
+	static float Pythagoras(float A, float B, float D)
+	{
+		float C = A * A + B * B + D * D;
+		return sqrt(C);
+	}
 	static float FindSinTheta(float A, float B)
 	{
 

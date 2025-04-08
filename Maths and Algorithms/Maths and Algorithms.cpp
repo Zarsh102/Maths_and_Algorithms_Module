@@ -18,6 +18,8 @@ int main()
     //subtract
     float answer = MathUtils::toDeg(12);
     std::cout << answer << std::endl;
+
+    //Vector(float x, float y, float z);
 }
 
 
