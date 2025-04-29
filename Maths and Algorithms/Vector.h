@@ -5,7 +5,9 @@ public:
 	float x, y, z;
 	Vector(float X, float Y, float Z)
 	{
-		
+		x = X;
+		y = Y;
+		z = Z;
 	}
 	float Magnitude();
 

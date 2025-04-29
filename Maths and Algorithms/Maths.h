@@ -24,11 +24,12 @@ namespace MathUtils
 	}
 	static float FindSinTheta(float A, float B)
 	{
-
+		float C = A / B;
 		return asin(A / B);
 	}
 	static float FindCosTheta(float A, float B)
 	{
+
 		return acos(A / B);
 	}
 	static float FindTanTheta(float A, float B)
@@ -38,6 +39,7 @@ namespace MathUtils
 
 	static float FindHyp(float Angle, float B)
 	{
+
 		return 0.0f;
 	}
 	static float FindOpp(float Angle, float B)

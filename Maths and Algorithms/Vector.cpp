@@ -10,18 +10,25 @@ float Vector::Magnitude()
 
 void Vector::Normalise()
 {
-
+	float Mag = Magnitude();
+	x = x / Mag;
+	y = y / Mag;
+	z = z / Mag;
 }
 
 
 void Vector::Scale(float Scaler)
 {
+	x = x * Scaler;
+	y = y * Scaler;
+	z = z * Scaler;
+
 }
 
 
 float Vector::Dot(Vector& B)
 {
-	return 0;
+	return x * B.x + y * B.y + z * B.z;
 }
 
 
