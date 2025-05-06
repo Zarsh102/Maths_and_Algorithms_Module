@@ -7,8 +7,9 @@ template <typename T>
 class Stack
 {
 public:
-    T* Data;
-    size_t Size;
+    T* Data = new T[10];
+    size_t Size = 10;
+    int Top{ 0 };
 
     T Pop();
     T Peek();
@@ -23,6 +24,7 @@ public:
 
     T* Data;
     size_t Size;
+    int Top{ 0 };
 
     T Pop();
     T Peek();
