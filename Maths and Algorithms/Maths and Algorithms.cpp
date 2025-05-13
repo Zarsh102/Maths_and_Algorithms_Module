@@ -22,4 +22,17 @@ int main()
     //Vector(float x, float y, float z);
 }
 
+{
+    inline int* BubbleSort(int* Data, size_t Size)
+    {
+        Data = 6, 1, 12, 3;
+        if (Data[i] > Data[i + 1])
+        {
+            int Temp = Data[i];
+            Data[i] = Data[i + 1];
+            Data[i + 1] = Temp;
+        }
+    }
+}
+
 

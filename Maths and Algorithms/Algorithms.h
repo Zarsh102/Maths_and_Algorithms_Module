@@ -3,7 +3,19 @@ namespace Algorithms
 {
     inline int * BubbleSort(int* Data, size_t Size)
 	 {
-		 return nullptr;
+		for (int j = Size; j > 0; j--)
+		{
+			for (int i = 0; i < j - 1; i++)
+			{
+				if (Data[i] > Data[i + 1])
+				{
+					int Temp = Data[i];
+					Data[i] = Data[i + 1];
+					Data[i + 1] = Temp;
+				}
+			}
+		}
+		return Data;
 	 }
 
 
@@ -43,15 +55,15 @@ namespace Algorithms
 	 }
 
 
-    inline int * LinierSearch(int* Data, size_t Size, int target)
+    inline bool LinierSearch(int* Data, size_t Size, int target)
 	 {
-		 return nullptr;
+		 return false;
 	 }
 
 
-    inline int * BinarySearch(int* Data, size_t Size, int target)
+    inline bool BinarySearch(int* Data, size_t Size, int target)
 	 {
-		 return nullptr;
+		 return false;
 	 }
 }
 
