@@ -38,3 +38,35 @@ T Queue<T>::Pop()
 {
 
 }
+
+template<typename T>
+inline void MinimumBinaryHeap<T>::Add(T DataToAdd)
+{
+	if (Root == nullptr)
+	{
+		return;
+	}
+
+	while (Root == nullptr)
+	{
+
+	}
+}
+
+template<typename T>
+inline T MinimumBinaryHeap<T>::Remove()
+{
+	return T();
+}
+
+template<typename T>
+inline void MinimumBinaryHeap<T>::HeapifyUp()
+{
+
+}
+
+template<typename T>
+inline void MinimumBinaryHeap<T>::HeapifyDown()
+{
+
+}
