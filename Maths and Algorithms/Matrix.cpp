@@ -2,5 +2,5 @@
 
 float Matrix::Determinate()
 {
-	Data
+	Data;
 }

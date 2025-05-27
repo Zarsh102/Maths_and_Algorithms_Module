@@ -49,7 +49,7 @@ inline void MinimumBinaryHeap<T>::Add(T DataToAdd)
 
 	while (Root == nullptr)
 	{
-
+		return;
 	}
 }
 

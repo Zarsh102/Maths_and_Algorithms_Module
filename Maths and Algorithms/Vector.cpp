@@ -34,5 +34,8 @@ float Vector::Dot(Vector& B)
 
 Vector Vector::Cross(Vector& B)
 {
-	return *this;
+	float cx = (y * B.z) - (z * B.y);
+	float cy = (z * B.x) - (x * B.z);
+	float cz = (x * B.y) - (y * B.x);
+	return Vector(cx, cy, cz);
 }
